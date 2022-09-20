@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+#Banner {
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+} 
+
+.diseno {
+    background-image: radial-gradient(circle at -1.14% 50%, #7cbc70 0, #6cbe7a 3.57%, #5ac085 7.14%, #45c191 10.71%, #29c29d 14.29%, #00c3a9 17.86%, #00c3b6 21.43%, #00c3c2 25%, #00c2ce 28.57%, #00c2d9 32.14%, #00c1e3 35.71%, #00bfec 39.29%, #00bdf4 42.86%, #00bbfa 46.43%, #00b8ff 50%, #41b5ff 53.57%, #60b1ff 57.14%, #79adff 60.71%, #8fa9ff 64.29%, #a3a4fc 67.86%, #b5a0f6 71.43%, #c59bef 75%, #d297e6 78.57%, #df92dc 82.14%, #e98fd2 85.71%, #f18cc6 89.29%, #f78aba 92.86%, #fc89ae 96.43%, #fe88a2 100%);
+    padding-right: 1rem;
+    position: relative;
+    animation: mymove 5s ease-in-out infinite;
+  }
+  
+  .diseno:hover {
+    animation-play-state: paused;
+    color: #000000;
+  }
+
+  .card {
+    border-radius: 2rem;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+ 
+  
+  .groupcard {
+    margin: 0 2rem;
+  }
+  
+  /* Colores Iconos */
+  .iconoscolor {
+    color: #3C0480;
+  
+  }
+  
+  .iconoscolor:hover {
+    color: #31d2f2;
+  }
+  
+  
+  #mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+  }
+  
+  
+  /* Contacto */
+  
+  #contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand {
+      width: 100px;
+    }
+  
+  }
+  
+
